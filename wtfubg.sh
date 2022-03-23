@@ -8,7 +8,7 @@ git clone https://github.com/metostom/wtfubg.git
 cd ~/Desktop/wtfubgenv/
 
 # setup venv/activate and install 
-python3 -m venv ~/Desktop/wtfubg/wtfubg
+python3 -m venv ~/Desktop/wtfubg/wtfubgenv
 source ~/Desktop/wtfubg/wtfubgenv/bin/activate
 
 # install python packages
