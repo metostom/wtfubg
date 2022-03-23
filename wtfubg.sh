@@ -2,17 +2,14 @@
 cd ~/Desktop/
 
 # clone the repo
-git clone https://github.com/metostom/video-to-ascii.git
+git clone https://github.com/metostom/wtfubg.git
 
 # get in there
-cd ~/Desktop/video-to-ascii/
-
-# switch to easy install branch
-git checkout install-quick
+cd ~/Desktop/wtfubgenv/
 
 # setup venv/activate and install 
-python3 -m venv ~/Desktop/video-to-ascii/wtfubg
-source ~/Desktop/video-to-ascii/wtfubg/bin/activate
+python3 -m venv ~/Desktop/wtfubg/wtfubg
+source ~/Desktop/wtfubg/wtfubgenv/bin/activate
 
 # install python packages
 pip3 install -r requirements.txt
