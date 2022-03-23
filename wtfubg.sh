@@ -11,6 +11,9 @@ cd ~/Desktop/wtfubg/
 python3 -m venv ~/Desktop/wtfubg/wtfubgenv
 source ~/Desktop/wtfubg/wtfubgenv/bin/activate
 
+#ffmpeg
+brew install ffmpeg
+
 # install python packages
 pip3 install -r requirements.txt
 
