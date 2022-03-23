@@ -15,7 +15,7 @@ source ~/Desktop/wtfubg/wtfubgenv/bin/activate
 pip3 install -r requirements.txt
 
 # install portaudio and python packaag
-brew install portaudio
+arch -arm64 brew install portaudio
 python3 -m pip install --global-option='build_ext' --global-option='-I/opt/homebrew/Cellar/portaudio/19.7.0/include' --global-option='-L/opt/homebrew/Cellar/portaudio/19.7.0/lib' pyaudio
 
 # call that ish
